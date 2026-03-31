@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Virtual environment
+venv/
+.venv/
+
+# Dataset (too large for git)
+Brain_Stroke_CT_Dataset/
+Archive.zip
+
+# Model weights (too large for git)
+results/best_model.pth
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
