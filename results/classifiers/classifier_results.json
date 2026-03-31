@@ -1,0 +1,215 @@
+{
+  "Logistic Regression": {
+    "accuracy": 0.8166332665330661,
+    "macro_f1": 0.7528861268416862,
+    "cohen_kappa": 0.641355447593837,
+    "per_class": {
+      "Bleeding": {
+        "precision": 0.695906432748538,
+        "recall": 0.725609756097561,
+        "f1-score": 0.7104477611940299,
+        "support": 164.0
+      },
+      "Ischemia": {
+        "precision": 0.639344262295082,
+        "recall": 0.6882352941176471,
+        "f1-score": 0.6628895184135978,
+        "support": 170.0
+      },
+      "Normal": {
+        "precision": 0.8990683229813664,
+        "recall": 0.8719879518072289,
+        "f1-score": 0.8853211009174312,
+        "support": 664.0
+      },
+      "accuracy": 0.8166332665330661,
+      "macro avg": {
+        "precision": 0.7447730060083289,
+        "recall": 0.7619443340074789,
+        "f1-score": 0.7528861268416862,
+        "support": 998.0
+      },
+      "weighted avg": {
+        "precision": 0.8214414288783081,
+        "recall": 0.8166332665330661,
+        "f1-score": 0.8186952524802674,
+        "support": 998.0
+      }
+    },
+    "auc_per_class": {
+      "Bleeding": 0.927545768263438,
+      "Ischemia": 0.8915956237567491,
+      "Normal": 0.9169296948272131
+    },
+    "auc_micro": 0.9375293673519384,
+    "ap_per_class": {
+      "Bleeding": 0.7764764465793245,
+      "Ischemia": 0.7052075353007039,
+      "Normal": 0.9473604279831973
+    },
+    "confusion_matrix": [
+      [
+        119,
+        15,
+        30
+      ],
+      [
+        18,
+        117,
+        35
+      ],
+      [
+        34,
+        51,
+        579
+      ]
+    ],
+    "prediction_time_seconds": 0.002260923385620117,
+    "training_time_seconds": 0.6579089164733887
+  },
+  "Random Forest": {
+    "accuracy": 0.7224448897795591,
+    "macro_f1": 0.47594050759414624,
+    "cohen_kappa": 0.2550593104786337,
+    "per_class": {
+      "Bleeding": {
+        "precision": 0.8378378378378378,
+        "recall": 0.18902439024390244,
+        "f1-score": 0.30845771144278605,
+        "support": 164.0
+      },
+      "Ischemia": {
+        "precision": 0.7692307692307693,
+        "recall": 0.17647058823529413,
+        "f1-score": 0.28708133971291866,
+        "support": 170.0
+      },
+      "Normal": {
+        "precision": 0.7158351409978309,
+        "recall": 0.9939759036144579,
+        "f1-score": 0.832282471626734,
+        "support": 664.0
+      },
+      "accuracy": 0.7224448897795591,
+      "macro avg": {
+        "precision": 0.7743012493554793,
+        "recall": 0.45315696069788486,
+        "f1-score": 0.47594050759414624,
+        "support": 998.0
+      },
+      "weighted avg": {
+        "precision": 0.7449791280533026,
+        "recall": 0.7224448897795591,
+        "f1-score": 0.6533331198276198,
+        "support": 998.0
+      }
+    },
+    "auc_per_class": {
+      "Bleeding": 0.8794159794115927,
+      "Ischemia": 0.8879866439329355,
+      "Normal": 0.8916925185773033
+    },
+    "auc_micro": 0.9080164336689411,
+    "ap_per_class": {
+      "Bleeding": 0.6867810135493163,
+      "Ischemia": 0.6695060909358567,
+      "Normal": 0.935910688351162
+    },
+    "confusion_matrix": [
+      [
+        31,
+        5,
+        128
+      ],
+      [
+        6,
+        30,
+        134
+      ],
+      [
+        0,
+        4,
+        660
+      ]
+    ],
+    "prediction_time_seconds": 0.039228200912475586,
+    "training_time_seconds": 5.3086841106414795
+  },
+  "SVM": {
+    "accuracy": 0.87374749498998,
+    "macro_f1": 0.8174113842222469,
+    "cohen_kappa": 0.7324396782841823,
+    "per_class": {
+      "Bleeding": {
+        "precision": 0.8646616541353384,
+        "recall": 0.7012195121951219,
+        "f1-score": 0.7744107744107744,
+        "support": 164.0
+      },
+      "Ischemia": {
+        "precision": 0.8309859154929577,
+        "recall": 0.6941176470588235,
+        "f1-score": 0.7564102564102564,
+        "support": 170.0
+      },
+      "Normal": {
+        "precision": 0.8838174273858921,
+        "recall": 0.9623493975903614,
+        "f1-score": 0.9214131218457101,
+        "support": 664.0
+      },
+      "accuracy": 0.87374749498998,
+      "macro avg": {
+        "precision": 0.8598216656713961,
+        "recall": 0.7858955189481023,
+        "f1-score": 0.8174113842222469,
+        "support": 998.0
+      },
+      "weighted avg": {
+        "precision": 0.8716702291545397,
+        "recall": 0.87374749498998,
+        "f1-score": 0.8691497229445512,
+        "support": 998.0
+      }
+    },
+    "auc_per_class": {
+      "Bleeding": 0.94712522664795,
+      "Ischemia": 0.9487070190394999,
+      "Normal": 0.954792222783349
+    },
+    "auc_micro": 0.9674117774627411,
+    "ap_per_class": {
+      "Bleeding": 0.854538014498878,
+      "Ischemia": 0.8458768137901626,
+      "Normal": 0.9722186505819483
+    },
+    "confusion_matrix": [
+      [
+        115,
+        9,
+        40
+      ],
+      [
+        8,
+        118,
+        44
+      ],
+      [
+        10,
+        15,
+        639
+      ]
+    ],
+    "prediction_time_seconds": 3.658330202102661,
+    "training_time_seconds": 79.33150911331177
+  },
+  "_meta": {
+    "feature_extractor": "ResNet-50 (ImageNet-V2)",
+    "feature_dim": 2048,
+    "scaler": "StandardScaler",
+    "train_size": 4655,
+    "val_size": 997,
+    "test_size": 998,
+    "seed": 42
+  }
+}
